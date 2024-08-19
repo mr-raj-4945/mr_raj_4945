@@ -1,0 +1,153 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 1.5em;
+  }
+  
+  .features {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .features .feature {
+    margin-bottom: 40px;
+  }
+  
+  .features h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2ecc71;
+  }
+  
+  .cta {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #27ae60;
+  }
+  
+  
+  .relief {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .relief-text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .relief-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2ecc71;
+  }
+  
+  .relief-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .relief-image {
+    margin-top: 40px;
+  }
+  
+  .relief-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .natural-ingredients {
+    padding: 80px 0;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .natural-ingredients-text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .natural-ingredients-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3498db;
+  }
+  
+  .natural-ingredients-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .natural-ingredients-image {
+    margin-top: 40px;
+  }
+  
+  .natural-ingredients-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
